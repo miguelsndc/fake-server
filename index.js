@@ -22,5 +22,5 @@ const generatePersonsFakeData = amount => {
 
 fs.writeFileSync(
   'db.json',
-  JSON.stringify({ users: generatePersonsFakeData(20) })
+  JSON.stringify({ users: generatePersonsFakeData(120) })
 );
